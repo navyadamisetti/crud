@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<?php
+ $db = mysqli_connect('localhost','root','N@vya14chinnu','navya')
+ or die('Error connecting to MySQL server.');
+?>
+<html>
+	<head>
+		<title>Main Page</title>
+	</head>
+	<body>
+		<style>
+			body 
+			{
+				background-color:#FFCC66;
+			}
+		</style>
+		<center>
+			<h1><p style="font-family:arial; color:#CC3366;">Hello!</p></h1>
+			<h1><p style="font-family:arial; color:#CC3366;">""" Welcome to Bossmool list """</p></h1>
+			<hr /> 
+			<h2> <p style="font-family:arial; color:indigo;">CRUD Operations on Bossmool Students</p> </h2>
+			<h3> <a href="insert.html"> <tt> >>>Create (Insert)</tt> </a> </h3>
+			<h3> <a href="list.html"> <tt> >>>Read (Display)</tt> </a> </h3>
+			<h3> <a href="update.html"> <tt> >>>Update</tt></a> </h3>
+			<h3> <a href="delete.html"> <tt> >>>Delete</tt></a> </h3>
+		</center>
+	</body>
+</html>
